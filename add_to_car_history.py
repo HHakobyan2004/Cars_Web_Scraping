@@ -4,7 +4,7 @@ import re
 import pandas as pd
 import numpy as np
 from datetime import datetime
-from scrape_cars import scrape_cars
+from Cars_Web_Scraping.scrape_cars_com import scrape_cars
 
 # Define queries
 civic_query = '?_utf8=%E2%9C%93&home_delivery=&list_price_max=14000&list_price_min=&makes[]=honda&maximum_distance=100&mileage_max=140000&models[]=honda-civic&page=1&page_size=200&sort=best_deal&stock_type=used&virtual_appointments=&year_max=&year_min=2012&zip=92037'
